@@ -9,7 +9,8 @@ while True:
     print(kilometers, "km converts to", miles, "miles.")
 
     choice = input("Would you like to try another conversion (y/n)?")
-    if choice !="y" and choice != "yes":
+    if choice.lower() !="y" and choice.lower() != "yes":
         break
+
 
 
